@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.wrap {
+    position: relative;
+    display: block;
+}
+
+
+
+.box {
+    -ms-overflow-style: none;
+}
+
+.box::-webkit-scrollbar {
+    display: none;
+}
