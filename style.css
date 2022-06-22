@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@media ( max-width: 768px ) {
+    .box {
+        
+    }
+}
 
 * {
     margin: 0;
@@ -19,6 +24,7 @@ a {
 img {
     vertical-align: middle;
     border: 0;
+    size: 100%;
 }
 
 ul,
@@ -48,4 +54,17 @@ body {
 
 .box::-webkit-scrollbar {
     display: none;
+}
+
+@media screen and (max-width: 820px) {
+    .box img{
+        size: 100%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .box img{
+        size: 100%;
+    }
 }
